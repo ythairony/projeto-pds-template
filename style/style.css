@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@100;300;400&display=swap');
+
+:root {
+    --fonte1: 'Roboto', sans-serif; 
+    --fonte2: 'Roboto Slab', serif;
+    --cor_principal: #5182F5;
+    --cor_secundaria_light: #3E99DE;
+    --cor_secundaria_dark: #3E43DE;
+    --cor_analoga_light: #46DCFA;
+    --cor_analoga_dark: #7046FA;
+    --cor_branco: #FFFFFF;
+    --cor_preto: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/********* HEADER **********/
+header{
+    width:100%;
+    padding: 1rem 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+header .logo .user-actions{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+header .logo{
+    width:10rem;
+    height:100%;
+}
+
+header .user-actions{
+    width:40%;
+    height:100%;
+}
